@@ -4,18 +4,32 @@
 	--only-font-family: "Dongle", sans-serif;
 }
 
+body {
+	padding: 5px 25px;
+}
+
 a {
 	text-decoration: none;
-	font-size: 35px;
+	font-size: 28px;
 }
 a:hover {
 	color: var(--secondary-color);
+}
+
+@media (max-width: 800px) {
+	div .col-md-3 {
+		padding: 10px;
+	}
+	div .name {
+		font-size: 50px;
+	}
 }
 
 .hero {
 	background: #fff2fc;
 	text-align: center;
 	font-family: var(--only-font-family);
+	border-radius: 10px;
 }
 
 .hero h1 {
@@ -38,11 +52,6 @@ a:hover {
 .text-decoration-none {
 	color: var(--primary-color);
 }
-.container-fluid {
-	display: flex;
-	justify-content: space-evenly;
-	padding: 55px;
-}
 
 .category-pink {
 	border: 1px solid #fff0f0;
@@ -50,6 +59,7 @@ a:hover {
 	background-color: #fff0f0;
 	padding: 25px 50px;
 	font-family: var(--only-font-family);
+	transition: transform 0.2s;
 }
 .category-yellow {
 	border: 1px solid #fff8d4;
@@ -57,6 +67,7 @@ a:hover {
 	background-color: #fff8d4;
 	padding: 25px 50px;
 	font-family: var(--only-font-family);
+	transition: transform 0.2s;
 }
 .category-green {
 	border: 1px solid #e4ffe7;
@@ -64,6 +75,7 @@ a:hover {
 	background-color: #e4ffe7;
 	padding: 25px 50px;
 	font-family: var(--only-font-family);
+	transition: transform 0.2s;
 }
 .category-blue {
 	border: 1px solid #e5f9ff;
@@ -71,4 +83,19 @@ a:hover {
 	background-color: #e5f9ff;
 	padding: 25px 50px;
 	font-family: var(--only-font-family);
+	transition: transform 0.2s;
+}
+
+.category-pink:hover {
+	transform: scale(1.2);
+}
+
+.category-yellow:hover {
+	transform: scale(1.2);
+}
+.category-green:hover {
+	transform: scale(1.2);
+}
+.category-blue:hover {
+	transform: scale(1.2);
 }
