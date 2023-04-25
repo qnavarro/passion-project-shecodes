@@ -1,15 +1,22 @@
+:root {
+	--primary-color: #a0b5ed;
+	--only-font-family: "Dongle", sans-serif;
+}
+
 h1 {
 	color: #6a9fbc;
-	font-family: "Dongle", sans-serif;
-	font-size: 96px;
-	text-align: center;
+	font-size: 105px;
 	margin-bottom: 45px;
 }
 h2 {
-	color: #a0b5ed;
-	font-family: "Dongle", sans-serif;
+	color: var(--primary-color);
 	font-weight: lighter;
 	font-size: 64px;
-	text-align: center;
 	margin-top: -90px;
+}
+.hero {
+	background: #fff2fc;
+	text-align: center;
+	font-family: var(--only-font-family);
+	padding: 10px;
 }
