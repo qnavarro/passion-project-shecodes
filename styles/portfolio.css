@@ -37,7 +37,7 @@ img {
 	div .col-md-3 {
 		padding: 8px;
 	}
-	.about-hero {
+	.content-container {
 		text-align: center;
 		padding: 0 !important;
 	}
@@ -124,11 +124,11 @@ img {
 	transform: scale(1.2);
 }
 
-.about-hero {
+.content-container {
 	font-family: var(--only-font-family);
 	padding: 120px 20px;
 }
-.about-hero h1 {
+.content-container h1 {
 	font-size: 30px;
 	line-height: 35px;
 	color: var(--primary-color);
@@ -138,12 +138,12 @@ img {
 	font-size: 80px;
 	color: var(--secondary-color);
 }
-.about-hero h2 {
+.content-container h2 {
 	font-size: 38px;
 	color: var(--primary-color);
 }
 
-.about-hero p {
+.content-container p {
 	font-size: 28px;
 	line-height: 25px;
 }
@@ -153,6 +153,6 @@ img {
 	border-radius: 10px;
 	background-color: #fff8d4;
 }
-.about-section-content {
+.content {
 	margin: 30px;
 }
