@@ -17,9 +17,10 @@ a:hover {
 }
 
 img {
-	border-radius: 50%;
-	max-width: 80%;
-	max-height: 80%;
+	border-radius: 25px;
+	max-width: 72%;
+	max-height: 72%;
+	border: 10px solid #e4ffe7;
 }
 
 @media (max-width: 800px) {
@@ -35,6 +36,13 @@ img {
 	}
 	div .col-md-3 {
 		padding: 8px;
+	}
+	.about-hero {
+		text-align: center;
+		padding: 0 !important;
+	}
+	.cloud {
+		display: block;
 	}
 }
 
@@ -118,20 +126,33 @@ img {
 
 .about-hero {
 	font-family: var(--only-font-family);
+	padding: 120px 20px;
 }
 .about-hero h1 {
 	font-size: 30px;
 	line-height: 35px;
+	color: var(--primary-color);
 }
 
 .my-name {
 	font-size: 80px;
+	color: var(--secondary-color);
 }
 .about-hero h2 {
 	font-size: 38px;
+	color: var(--primary-color);
 }
 
 .about-hero p {
 	font-size: 28px;
 	line-height: 25px;
+}
+.about-portfolio {
+	font-size: 40px;
+	border: 10px solid #fffbe8;
+	border-radius: 10px;
+	background-color: #fff8d4;
+}
+.about-section-content {
+	margin: 30px;
 }
