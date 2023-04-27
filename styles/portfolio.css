@@ -44,6 +44,15 @@ img {
 	.cloud {
 		display: block;
 	}
+	div .weather-app {
+		font-size: 30px !important;
+		padding: 0 !important;
+		margin-top: 0 !important;
+	}
+	div .portfolio-heading {
+		font-size: 45px !important;
+		margin-bottom: 20px !important;
+	}
 }
 
 .hero {
@@ -128,7 +137,7 @@ img {
 	font-family: var(--only-font-family);
 	padding: 120px 20px;
 }
-.content-container h1 {
+.content h1 {
 	font-size: 30px;
 	line-height: 35px;
 	color: var(--primary-color);
@@ -138,9 +147,16 @@ img {
 	font-size: 80px;
 	color: var(--secondary-color);
 }
-.content-container h2 {
+.content h2 {
 	font-size: 38px;
 	color: var(--primary-color);
+}
+
+.content h3 {
+	font-size: 50px !important;
+	color: var(--secondary-color) !important;
+	line-height: 1.5;
+	margin-bottom: -15px;
 }
 
 .content-container p {
@@ -155,4 +171,29 @@ img {
 }
 .content {
 	margin: 30px;
+	text-align: center;
+}
+
+.portfolio-heading {
+	font-size: 75px !important;
+}
+.access-app {
+	border: 10px solid #e5f9ff;
+	transition: transform 0.2s;
+	max-height: 100%;
+}
+.access-app:hover {
+	transform: scale(1.05);
+}
+
+.weather-app {
+	font-size: 40px;
+	border: 1px solid #e5f9ff;
+	border-radius: 10px;
+	background-color: #e5f9ff;
+	padding: 20px 45px;
+}
+.further-description {
+	font-size: 20px;
+	line-height: 18px;
 }
