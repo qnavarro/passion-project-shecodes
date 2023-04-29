@@ -155,6 +155,10 @@ footer .social-links a:hover {
 	footer .social-links a {
 		padding: 10px 20px;
 	}
+
+	footer .source-text {
+		display: none;
+	}
 }
 @media (max-width: 1024px) {
 	footer .contact-box {
@@ -247,7 +251,7 @@ footer .social-links a:hover {
 
 .content-container {
 	font-family: var(--only-font-family);
-	padding: 120px 20px;
+	padding: 60px 20px;
 }
 .content h1 {
 	font-size: 30px;
@@ -308,4 +312,18 @@ footer .social-links a:hover {
 .further-description {
 	font-size: 20px;
 	line-height: 18px;
+}
+footer .source-text {
+	font-size: 25px;
+	color: var(--secondary-color) !important;
+	opacity: 50%;
+}
+
+p .open-sourced {
+	font-size: 25px !important;
+	color: var(--secondary-color) !important;
+}
+
+.footer-none-index {
+	margin-top: -50px !important;
 }
