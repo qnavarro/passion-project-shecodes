@@ -43,12 +43,83 @@ nav li.active {
 	color: var(--secondary-color);
 }
 
-@media (max-width: 800px) {
+h4 {
+	font-family: var(--only-font-family);
+	font-size: 65px !important;
+	color: var(--primary-color) !important;
+	margin: 0;
+}
+
+footer p {
+	font-family: var(--only-font-family);
+	font-size: 28px;
+	margin-bottom: 18px;
+	line-height: 0px;
+}
+
+footer .contact-box {
+	background-color: #fff2fc;
+	border-radius: 10px;
+	margin: 10px 200px;
+	padding: 20px;
+}
+
+.contact-box div {
+	margin: 0 100px;
+}
+
+footer .btn {
+	background-color: var(--primary-color);
+	border: none;
+	line-height: 40px;
+	font-family: var(--only-font-family);
+	font-size: 30px;
+	line-height: 50px;
+}
+
+footer .btn:hover {
+	background-color: var(--secondary-color);
+	transition: all 150ms;
+}
+
+footer .email-link {
+	color: var(--primary-color);
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+	font-size: 22px;
+	font-family: var(--only-font-family);
+}
+
+footer a {
+	font-size: 45px !important;
+}
+
+footer .email-link:hover {
+	color: var(--secondary-color);
+}
+
+footer .social-links a {
+	margin: 0 20px;
+	padding: 10px 25px;
+	color: var(--primary-color);
+	font-size: 20px;
+	background-color: #fdf5ff;
+	border-radius: 50%;
+	transition: transform 0.2s;
+}
+
+footer .social-links a:hover {
+	color: #dabeff;
+	transform: scale(1.15);
+}
+
+@media (max-width: 600px) {
 	h1 {
 		font-size: 50px !important;
 	}
 	h2 {
-		font-size: 30px !important;
+		font-size: 20px !important;
 		padding: 15px;
 	}
 	.container-fluid {
@@ -75,6 +146,19 @@ nav li.active {
 	}
 	nav li {
 		font-size: 25px;
+		margin: 5px !important;
+	}
+
+	footer a {
+		font-size: 32px !important;
+	}
+	footer .social-links a {
+		padding: 10px 20px;
+	}
+}
+@media (max-width: 1024px) {
+	footer .contact-box {
+		display: none !important;
 	}
 }
 
